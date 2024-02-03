@@ -159,6 +159,12 @@ body[data-theme=light] {
   flex-direction: column;
   display: none;
 }
+@media (max-width: 500px) {
+  .todo__header__icons__more {
+    right: 8rem;
+    top: 3rem;
+  }
+}
 .todo__header__icons__more--active {
   display: block;
 }
